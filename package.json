@@ -1,0 +1,15 @@
+{
+  "name": "lista-de-tarefas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "RickLustri",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^31.0.2",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Roboto+Slab:wght@100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Gerenciar Tarefas</title>
+</head>
+
+<body>
+  <div id="fundo"></div>
+
+  <div id="container">
+    <header>
+      <img src="../assets/image/logo.png" />
+      <h1>Gerenciar Tarefas</h1>
+      <hr />
+    </header>
+
+    <main id="mainDoForms">
+      <section>
+        <h2>O que está pensando?</h2>
+        <form id="formulario">
+          <label for="titulo">Titulo</label>
+          <input id="titulo" type="text" placeholder="Titulo da anotação" />
+
+          <label for="pensamento">Pensamento</label>
+          <input id="pensamento" type="text" placeholder="Em que estou pensando..." />
+
+          <button type="submit">Anotar</button>
+        </form>
+      </section>
+      <section>
+        <select id="anotacoes" size="5">
+          <option value="">TESTANDO1</option>
+          <option value="">TESTANDO2</option>
+          <option value="">TESTANDO3</option>
+          <option value="">TESTANDO4</option>
+          <option value="">TESTANDO5</option>
+          <option value="">TESTANDO6</option>
+          <option value="">TESTANDO7</option>
+          <option value="">TESTANDO8</option>
+          <option value="">TESTANDO9</option>
+      </select>
+      </section>
+    </main>
+  </div>
+  <div id="container2">
+    <main id="mainDaTarefa">
+      <table>
+        <caption>
+          <h3>TITULO DA TAREFA</h3>
+      </caption>
+      <thead>
+        <tr>
+            <th>TAREFAS</th>
+            <th>ADICIONADO</th>
+        </tr>
+    </thead>
+
+    <tbody id="tbody">
+    </tbody>
+      </table>
+
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
